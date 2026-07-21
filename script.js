@@ -1,10 +1,13 @@
 const products = {
   1: {
     id: 1,
-    name: "Vestido Longo Queen",
+    name: "Vestido Longo Multicolor – Coleção Verão",
     price: 34.99,
     image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1200&q=85",
-    description: "Vestido longo elegante, confortável e ideal para festas, jantares e ocasiões especiais."
+    description: "Elegância, conforto e estilo num só vestido. Perfeito para férias, festas, passeios, praia ou qualquer ocasião especial.
+- Disponível em 4 cores
+
+- Tamanhos: S, M, L e XL."
   },
   2: {
     id: 2,
