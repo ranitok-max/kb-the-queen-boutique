@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1,
+    "name": "Vestido Longo Multicolor",
+    "subtitle": "Coleção Verão",
+    "price": 34.99,
+    "category": "Vestidos",
+    "colors": [
+      "Laranja",
+      "Rosa",
+      "Azul",
+      "Verde",
+      "Roxo"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "main": "assets/p1-frente.png",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "assets/p1-frente.png",
+        "label": "Frente"
+      },
+      {
+        "type": "image",
+        "src": "assets/p1-costas.png",
+        "label": "Costas"
+      },
+      {
+        "type": "image",
+        "src": "assets/p1-cores.png",
+        "label": "Cores"
+      },
+      {
+        "type": "image",
+        "src": "assets/p1-tecido.png",
+        "label": "Tecido"
+      },
+      {
+        "type": "image",
+        "src": "assets/p1-detalhe.png",
+        "label": "Detalhe"
+      },
+      {
+        "type": "video",
+        "src": "assets/p1-video.mp4",
+        "label": "Vídeo"
+      }
+    ],
+    "description": "Vestido longo multicolor com decote halter e caimento fluido. Leve, confortável e elegante, ideal para férias, festas, passeios e dias de verão.",
+    "note": "Mala, calçado e acessórios não incluídos."
+  },
+  {
+    "id": 2,
+    "name": "Conjunto Elegance 2 Peças",
+    "subtitle": "Camisa + calças de perna larga",
+    "price": 39.99,
+    "category": "Conjuntos",
+    "colors": [
+      "Azul Céu",
+      "Verde Escuro",
+      "Lilás",
+      "Branco"
+    ],
+    "sizes": [
+      "UK 16 (0XL)",
+      "UK 18 (1XL)",
+      "UK 20 (2XL)",
+      "UK 22 (3XL)"
+    ],
+    "main": "assets/p2-lilas.png",
+    "colorImages": {
+      "Azul Céu": "assets/p2-azul.png",
+      "Verde Escuro": "assets/p2-verde.png",
+      "Lilás": "assets/p2-lilas.png",
+      "Branco": "assets/p2-branco.png"
+    },
+    "gallery": [
+      {
+        "type": "image",
+        "src": "assets/p2-lilas.png",
+        "label": "Lilás"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-costas.png",
+        "label": "Costas"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-tecido.png",
+        "label": "Tecido"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-detalhe.png",
+        "label": "Detalhe"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-azul.png",
+        "label": "Azul Céu"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-verde.png",
+        "label": "Verde Escuro"
+      },
+      {
+        "type": "image",
+        "src": "assets/p2-branco.png",
+        "label": "Branco"
+      },
+      {
+        "type": "video",
+        "src": "assets/p2-video.mp4",
+        "label": "Vídeo"
+      }
+    ],
+    "description": "Conjunto elegante de 2 peças composto por camisa de manga bufante e calças de perna larga. Tecido leve e confortável, cintura elástica e bolsos laterais.",
+    "note": "Mala, calçado e acessórios não incluídos."
+  },
+  {
+    "id": 3,
+    "name": "Vestido Elegance Floral",
+    "subtitle": "Detalhes florais em 3D",
+    "price": 49.99,
+    "category": "Vestidos de Festa",
+    "colors": [
+      "Vermelho",
+      "Verde Água"
+    ],
+    "sizes": [
+      "UK 16 (0XL)",
+      "UK 18 (1XL)",
+      "UK 20 (2XL)",
+      "UK 22 (3XL)",
+      "UK 24 (4XL)"
+    ],
+    "main": "assets/p3-vermelho.png",
+    "colorImages": {
+      "Vermelho": "assets/p3-vermelho.png",
+      "Verde Água": "assets/p3-verdeagua.png"
+    },
+    "gallery": [
+      {
+        "type": "image",
+        "src": "assets/p3-vermelho.png",
+        "label": "Vermelho"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-vermelho-costas.png",
+        "label": "Costas — vermelho"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-vermelho-detalhe.png",
+        "label": "Detalhe — vermelho"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-vermelho-tecido.png",
+        "label": "Tecido — vermelho"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-verdeagua.png",
+        "label": "Verde Água"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-verdeagua-costas.png",
+        "label": "Costas — verde água"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-verdeagua-detalhe.png",
+        "label": "Detalhe — verde água"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-verdeagua-tecido.png",
+        "label": "Tecido — verde água"
+      },
+      {
+        "type": "image",
+        "src": "assets/p3-cores.png",
+        "label": "Cores"
+      },
+      {
+        "type": "video",
+        "src": "assets/p3-video.mp4",
+        "label": "Vídeo"
+      }
+    ],
+    "description": "Vestido elegante de ombros descobertos, com detalhes florais em 3D no decote e na barra. A modelagem sereia valoriza a silhueta e cria um visual sofisticado.",
+    "note": "Calçado e acessórios não incluídos."
+  },
+  {
+    "id": 4,
+    "name": "Conjunto Elegance Luxury Preto",
+    "subtitle": "Blazer com laço em cetim",
+    "price": 59.99,
+    "category": "Conjuntos",
+    "colors": [
+      "Preto"
+    ],
+    "sizes": [
+      "UK 8 (S)",
+      "UK 10 (M)",
+      "UK 12/14 (L)",
+      "UK 16 (XL)",
+      "UK 18 (XXL)"
+    ],
+    "main": "assets/p4-frente.png",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "assets/p4-frente.png",
+        "label": "Frente"
+      },
+      {
+        "type": "image",
+        "src": "assets/p4-costas.png",
+        "label": "Costas"
+      },
+      {
+        "type": "image",
+        "src": "assets/p4-detalhe.png",
+        "label": "Laço e pedrarias"
+      },
+      {
+        "type": "image",
+        "src": "assets/p4-tecido.png",
+        "label": "Tecido"
+      },
+      {
+        "type": "video",
+        "src": "assets/p4-video.mp4",
+        "label": "Vídeo"
+      }
+    ],
+    "description": "Conjunto elegante composto por blazer estruturado e calça ajustada. Possui vivo contrastante na lapela, laço lateral em cetim e botões decorados com pedrarias.",
+    "note": "Mala, calçado e acessórios não incluídos."
+  },
+  {
+    "id": 5,
+    "name": "Vestido Elegance Assimétrico",
+    "subtitle": "Camadas de tule",
+    "price": 46.99,
+    "category": "Vestidos de Festa",
+    "colors": [
+      "Verde Escuro",
+      "Verde Água",
+      "Vermelho"
+    ],
+    "sizes": [
+      "UK 8 (S)",
+      "UK 10 (M)",
+      "UK 12/14 (L)",
+      "UK 16 (XL)",
+      "UK 18 (XXL)"
+    ],
+    "main": "assets/p5-frente.png",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "assets/p5-frente.png",
+        "label": "Frente"
+      },
+      {
+        "type": "image",
+        "src": "assets/p5-costas.png",
+        "label": "Costas"
+      },
+      {
+        "type": "image",
+        "src": "assets/p5-detalhe.png",
+        "label": "Detalhe"
+      },
+      {
+        "type": "image",
+        "src": "assets/p5-tecido.png",
+        "label": "Tecido"
+      },
+      {
+        "type": "image",
+        "src": "assets/p5-cores.png",
+        "label": "Cores"
+      },
+      {
+        "type": "video",
+        "src": "assets/p5-video.mp4",
+        "label": "Vídeo"
+      }
+    ],
+    "description": "Vestido elegante de ombros descobertos, com alça assimétrica e saia irregular em camadas de tule. Modelagem ajustada e acabamento marcante.",
+    "note": "Mala, calçado e acessórios não incluídos."
+  }
+]

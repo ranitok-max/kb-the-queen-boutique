@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KB The Queen Boutique — moda feminina elegante, moderna e sofisticada.">
+  <title>KB The Queen Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">Envio para o Reino Unido · Encomendas pelo WhatsApp</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio"><span class="brand-mark">KB</span><span><strong>KB The Queen</strong><small>BOUTIQUE</small></span></a>
+    <nav>
+      <a href="#colecao">Coleção</a>
+      <a href="#vantagens">Comprar</a>
+      <button id="cartBtn" class="cart-button" aria-label="Abrir carrinho">Sacola <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NOVA COLEÇÃO</p>
+        <h1>Elegância que celebra a tua presença.</h1>
+        <p>Peças selecionadas para mulheres que vestem confiança, sofisticação e estilo.</p>
+        <a class="primary-btn" href="#colecao">Ver coleção</a>
+      </div>
+      <div class="hero-image"><img src="assets/p1-frente.png" alt="Vestido longo multicolor da KB The Queen Boutique"></div>
+    </section>
+
+    <section id="vantagens" class="benefits">
+      <article><strong>Compra simples</strong><span>Escolhe cor e tamanho</span></article>
+      <article><strong>Atendimento rápido</strong><span>Finalização pelo WhatsApp</span></article>
+      <article><strong>Moda selecionada</strong><span>Peças elegantes e versáteis</span></article>
+    </section>
+
+    <section id="colecao" class="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">KB THE QUEEN BOUTIQUE</p><h2>A nossa coleção</h2></div>
+        <div class="filters">
+          <button class="filter active" data-filter="Todos">Todos</button>
+          <button class="filter" data-filter="Vestidos">Vestidos</button>
+          <button class="filter" data-filter="Conjuntos">Conjuntos</button>
+          <button class="filter" data-filter="Vestidos de Festa">Festa</button>
+        </div>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span class="brand-mark">KB</span><span><strong>KB The Queen</strong><small>BOUTIQUE</small></span></div>
+    <p>Moda feminina com presença, confiança e elegância.</p>
+    <p>© 2026 KB The Queen Boutique</p>
+  </footer>
+
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel product-modal-panel">
+      <button class="close-btn" data-close-modal aria-label="Fechar">×</button>
+      <div class="product-layout">
+        <div>
+          <div id="mediaStage" class="media-stage"></div>
+          <div id="mediaThumbs" class="media-thumbs"></div>
+        </div>
+        <div class="product-info">
+          <p id="modalCategory" class="eyebrow"></p>
+          <h2 id="modalName"></h2>
+          <p id="modalSubtitle" class="subtitle"></p>
+          <p id="modalPrice" class="price"></p>
+          <p id="modalDescription"></p>
+
+          <div class="selector-group">
+            <strong>Cor</strong>
+            <div id="colorOptions" class="option-list"></div>
+          </div>
+          <div class="selector-group">
+            <strong>Tamanho</strong>
+            <div id="sizeOptions" class="option-list"></div>
+          </div>
+          <p id="modalNote" class="note"></p>
+          <button id="addToCartBtn" class="primary-btn full">Adicionar à sacola</button>
+          <button id="buyNowBtn" class="whatsapp-btn full">Comprar pelo WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-cart></div>
+    <div class="drawer-panel">
+      <div class="drawer-header"><h2>A tua sacola</h2><button class="close-btn" data-close-cart>×</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-summary">
+        <div><span>Total</span><strong id="cartTotal">£0.00</strong></div>
+        <button id="checkoutBtn" class="whatsapp-btn full">Finalizar pelo WhatsApp</button>
+        <button id="clearCartBtn" class="text-btn">Limpar sacola</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
